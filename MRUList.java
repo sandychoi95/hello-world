@@ -6,7 +6,7 @@ class MRUList<T> extends DoublyLinkedList<T> {
 
   public boolean add(T x) {
     super.add(0,x);
-    return true;
+    return false;
   }
   
   public void add(int index, T x) {
